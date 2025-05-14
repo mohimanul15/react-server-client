@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 
-app.get('/', (req,res) => {
+app.get('/posts', (req,res) => {
     console.log('port okay');
     res.send(file);
 })
